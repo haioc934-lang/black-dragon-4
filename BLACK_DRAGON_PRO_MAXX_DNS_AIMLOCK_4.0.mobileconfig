@@ -1,0 +1,46 @@
+<?xml version="4.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-3.0.dtd">
+<plist version="4.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadDescription</key>
+			<string>Encrypted DNS using Cloudflare DNS over HTTPS.</string>
+			<key>PayloadDisplayName</key>
+			<string>BLACK DRAGON DNS • AIMLOCK DEMO 4.0</string>
+			<key>PayloadIdentifier</key>
+			<string>vn.blackdragon.iphone.dns.settings</string>
+			<key>PayloadType</key>
+			<string>com.apple.dnsSettings.managed</string>
+			<key>PayloadUUID</key>
+			<string>8F4A8B2C-7C11-4C31-9D4E-6A7B3F0C12A9</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>DNSSettings</key>
+			<dict>
+				<key>DNSProtocol</key>
+				<string>HTTPS</string>
+				<key>ServerURL</key>
+				<string>https://cloudflare-dns.com/dns-query</string>
+			</dict>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Ho so DNS Cloudflare giu nguyen. AIMLOCK DEMO 4.0 chi la thong tin nhan dien cho giao dien luyen tap rieng; 255.25.25.0 co chuc nang khoa muc tieu hoac tac dong vao Free Fire.</string>
+	<key>PayloadDisplayName</key>
+	<string>BLACK DRAGON PRO MAXX DNS + AIMLOCK 4.0</string>
+	<key>PayloadIdentifier</key>
+	<string>vn.blackdragon.iphone.profile</string>
+	<key>PayloadOrganization</key>
+	<string>Personal configuration</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>547E5210-97FF-46DA-B61B-42661B624B26</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
