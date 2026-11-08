@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#090b1b">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="BLACK DRAGON 4.0">
+<title>BLACK DRAGON PRO MAXX 4.0</title>
+<style>
+:root{color-scheme:dark;--bg:#080a18;--panel:#11152b;--line:#292d55;--cyan:#52eaff;--purple:#a66bff;--muted:#aab1d2;--green:#55f0ae}
+*{box-sizing:border-box}body{margin:0;min-height:100vh;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#f5f6ff;background:radial-gradient(ellipse at 15% 0%,#34205f 0,transparent 38%),radial-gradient(ellipse at 100% 30%,#073d55 0,transparent 35%),var(--bg);padding:env(safe-area-inset-top) 16px env(safe-area-inset-bottom)}
+.wrap{max-width:620px;margin:0 auto;padding:28px 0 36px}.top{display:flex;align-items:center;justify-content:space-between;gap:12px}.brand{font-size:12px;letter-spacing:2.4px;color:var(--cyan);font-weight:800}.version{border:1px solid #6d55b5;color:#d9c7ff;border-radius:99px;padding:7px 11px;font-size:11px;letter-spacing:1px}
+.hero{text-align:center;padding:35px 12px 26px}.orb{width:94px;height:94px;margin:0 auto 18px;border-radius:28px;display:grid;place-items:center;font-size:38px;font-weight:900;color:white;background:linear-gradient(140deg,#753dcb,#087e9b);box-shadow:0 0 22px #8b54ff88,0 0 44px #27dff344;border:1px solid #b7a0ff66}.hero h1{font-size:clamp(25px,7vw,36px);line-height:1.1;margin:0;letter-spacing:1px}.hero h1 span{color:var(--cyan)}.hero p{color:var(--muted);font-size:13px;line-height:1.6;margin:12px auto 0;max-width:390px}
+.panel{background:linear-gradient(145deg,#151a35ed,#0e1227ed);border:1px solid var(--line);border-radius:20px;padding:18px;margin:13px 0;box-shadow:0 12px 32px #0004}.panel-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:14px}.panel h2{font-size:14px;margin:0;letter-spacing:1px}.tag{font-size:10px;color:var(--green);border:1px solid #286f59;padding:5px 8px;border-radius:99px}.info{display:grid;grid-template-columns:1fr auto;gap:11px;padding:11px 0;border-top:1px solid #252a4a;font-size:13px}.info:first-of-type{border-top:0}.key{color:var(--muted)}.value{font-weight:650;text-align:right;overflow-wrap:anywhere}.actions{display:grid;grid-template-columns:1fr 1fr;gap:10px}.action{border:1px solid #55418c;border-radius:13px;padding:14px 10px;text-align:center;background:#1a1d3a;color:#fff;font-size:13px;font-weight:700;cursor:pointer}.action.primary{background:linear-gradient(110deg,#673fc1,#087e9b);border-color:#8c75d8}.action:active{transform:scale(.98)}.notice{font-size:12px;line-height:1.6;color:var(--muted)}.notice strong{color:#e5d7ff}.footer{text-align:center;color:#777fa7;font-size:10px;letter-spacing:1px;padding:22px 0 8px}
+@media(max-width:360px){.actions{grid-template-columns:1fr}.info{font-size:12px}}
+</style>
+</head>
+<body><main class="wrap">
+<header class="top"><div class="brand">BLACK DRAGON / CONTROL PANEL</div><div class="version">VERSION 4.0</div></header>
+<section class="hero"><div class="orb">BD</div><h1>BLACK DRAGON<br><span>PRO MAXX</span></h1><p>Bảng thông tin DNS và khu vực luyện tập giao diện dành cho iPhone.</p></section>
+<section class="panel"><div class="panel-head"><h2>DNS PROFILE</h2><span class="tag">THÔNG TIN CẤU HÌNH</span></div>
+<div class="info"><span class="key">Nhà cung cấp DNS</span><span class="value">Cloudflare</span></div>
+<div class="info"><span class="key">Giao thức</span><span class="value">DNS over HTTPS</span></div>
+<div class="info"><span class="key">Máy chủ</span><span class="value">cloudflare-dns.com</span></div>
+<div class="info"><span class="key">Phiên bản hồ sơ</span><span class="value">4.0</span></div></section>
+<section class="panel"><div class="panel-head"><h2>QUICK ACCESS</h2><span class="tag">LOCAL DEMO</span></div><div class="actions"><button class="action primary" onclick="showInfo('Đây là khu vực giao diện luyện tập. Trang web không điều khiển Free Fire.')">Khu vực luyện tập</button><button class="action" onclick="showInfo('DNS hiện tại được cấu hình trong hồ sơ iPhone. Trang này chỉ hiển thị thông tin, không thay đổi DNS.')">Thông tin DNS</button></div></section>
+<section class="panel"><div class="panel-head"><h2>GHI CHÚ</h2></div><p class="notice"><strong>Chức năng:</strong> Web Clip là lối tắt mở trang này từ Màn hình chính iPhone khi được lưu trữ trên một địa chỉ HTTPS công khai.<br><br><strong>Giới hạn:</strong> Trang này chỉ là bảng điều khiển thông tin và mô phỏng luyện tập. DNS không tạo aimbot, aimlock hoặc thay đổi cơ chế ngắm trong game.</p></section>
+<div class="footer">BLACK DRAGON PRO MAXX · 4.0</div>
+</main><script>function showInfo(message){alert(message)}</script></body></html>
